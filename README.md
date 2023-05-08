@@ -24,7 +24,7 @@ Sample PDF name - ***mnist_research.pdf***, Sample PDF path - ***C:\\Users\\saya
 
 - `extractNamesAndContextFromPDF(pdf_name,pdf_path)` : It takes the PDF name, PDF path(absolute to your local machine) and prints all the *Dataset Names*, *Normalized Dataset Names* and *Context of the Dataset* found in the PDF file. Sample PDF name - ***mnist_research.pdf***, Sample PDF path - ***C:\\Users\\sayak\\Desktop\\Python_Resources\\msmarco.pdf***
 
-## ** Conclusion**
+## **Conclusion**
 Dataset Extractor is a powerful and flexible Python package that makes it easy to extract dataset names from research PDFs using the GROBID text extractor machine learning library. It provides a range of customization options that allow you to tailor the output to your specific needs, and can be easily modified by editing the functions present inside the `datasetExtract` package.
 
 **NOTE** : *Check the `test.py` file for getting a summzarized understanding of the working of the functions present inside the dataseExtract package*
